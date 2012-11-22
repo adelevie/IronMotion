@@ -26,12 +26,12 @@ IronMotion.init(:oauth_token => "12345thisisanoauthtoken6789")
 projects = IronMotion::Projects.all
 project = projects.first
 project.getTasks do |tasks|
-	puts tasks.first.id
-	puts tasks.first.code_name
+  puts tasks.first.id
+  puts tasks.first.code_name
 end
 project.getCodes do |codes|
-	puts codes.first.id
-	puts codes.first.name
+  puts codes.first.id
+  puts codes.first.name
 end
 
 ```

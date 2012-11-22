@@ -1,5 +1,3 @@
-module Iron
-  module Motion
-    VERSION = "0.0.1"
-  end
+module IronMotion
+  VERSION = "0.0.1"
 end

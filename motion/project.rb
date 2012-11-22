@@ -36,8 +36,8 @@ module IronMotion
       @tasks
     end
 
-    def self.all
-      [IronMotion::Project.new("509c557b7e4b7117f2002bf6")]
-    end
+    #def self.all
+    #  [IronMotion::Project.new("509c557b7e4b7117f2002bf6")]
+    #end
   end
 end

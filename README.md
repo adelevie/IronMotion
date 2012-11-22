@@ -23,8 +23,7 @@ Or install it yourself as:
 ```ruby
 
 IronMotion.init(:oauth_token => "12345thisisanoauthtoken6789")
-projects = IronMotion::Projects.all
-project = projects.first
+project = IronMotion::Project.new("myprojectid12345")
 project.getTasks do |tasks|
   puts tasks.first.id
   puts tasks.first.code_name
